@@ -105,8 +105,8 @@ img{
 
 }
 footer{
-	width: 120%;
-	height: 10em;
+	width: 100%;
+	height: auto;
 	background-color: #396AB2;
 	color: white;
 	padding: 1.5em;
