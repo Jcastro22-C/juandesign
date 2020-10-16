@@ -65,16 +65,15 @@ nav{
 	
 }
 .logo2{
-	background-image: url(../images/logo2.png);
-	background-size: 100%;
-	background-position: right;
-	background-repeat: no-repeat;
-	height: 500px;
-	width: 500px;
+	height: 300px;
+	width: 300px;
 	float: right;
-	margin-left: 300px;
-	background-color: green;
+	margin-right: 450px;
 
+}
+.logo2 img{
+	width: 450px;
+	height: 450px;
 }
 
 .wha{
