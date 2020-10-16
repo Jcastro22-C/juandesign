@@ -9,39 +9,40 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<title>INICIO</title>
 </head>
 <body>
 	<header>
 		<center>
-<div class="logo"></div>
+<div class="wow logo animate__animated animate__backInDown"></div>
 		<nav>
-			<a href="index.html"><input type="button" name="inicio" class="menu seleccionado" value="INICIO"></a>
-			<a href="productos.html"><input type="button" name="productos" class="menu" value="PRODUCTOS"></a>
-			<a href="servicios.html"><input type="button" name="servicios" class="menu" value="SERVICIOS"></a>
-			<a href="contactos.html"><input type="button" name="contactos" class="menu" value="CONTACTO"></a>
-			<a href="ayuda.html"><input type="button" name="ayuda" class="menu" value="AYUDA"></a>
+			<a href="index.html"><input type="button" name="inicio" class="wow menu seleccionado animate__animated animate__backInRight" value="INICIO"></a>
+			<a href="productos.html"><input type="button" name="productos" class="wow menu animate__animated animate__backInRight" value="PRODUCTOS"></a>
+			<a href="servicios.html"><input type="button" name="servicios" class="wow menu animate__animated animate__backInRight" value="SERVICIOS"></a>
+			<a href="contactos.html"><input type="button" name="contactos" class="wow menu animate__animated animate__backInRight" value="CONTACTO"></a>
+			<a href="ayuda.html"><input type="button" name="ayuda" class="wow menu animate__animated animate__backInRight" value="AYUDA"></a>
 		</nav>
 	</center>
 	</header>
 
 	<center>
 		<div class="grid">
-			<div class="article"><img src="images/logo2.png"><br>Sobre mí<br><br>Mi nombre es Juan David Castro, tengo
+			<div class="wow article animate__animated animate__backInLeft"><img src="images/logo2.png"><br>Sobre mí<br><br>Mi nombre es Juan David Castro, tengo
 	un técnico en diseño e integración en
 	multimedia y me encuentro realizando un
 	tecnólogo en producción multimedia.</div>
 
-			<div class="article foto"></div>
+			<div class="wow article foto animate__animated animate__backInRight"></div>
 		</div>
 		<h2>MIS ESTUDIOS</h2>
 		<div class="grid grid2">
-			<div class="article"><img src="images/libertador.png"><br>BACHILERATO<br><br>Realicé mi primaria y bachillerato en el colegio El Libertador, en donde me enseñaron a formarme como persona</div>
-			<div class="article"><img src="images/sena.png"><br>TÉCNICO EN DISEÑO E INTEGRACIÓN MULTIMEDIA<br><br>Realicé un técnico en diseño e integración
+			<div class="wow article animate__animated animate__backInUp"><img src="images/libertador.png"><br>BACHILERATO<br><br>Realicé mi primaria y bachillerato en el colegio El Libertador, en donde me enseñaron a formarme como persona</div>
+			<div class="wow article animate__animated animate__backInUp"><img src="images/sena.png"><br>TÉCNICO EN DISEÑO E INTEGRACIÓN MULTIMEDIA<br><br>Realicé un técnico en diseño e integración
 en multimedia en los años 2017-2018 en el
 cual realicé un proyecto llamado TAG
 DESIGN</div>
-			<div class="article"><img src="images/sena.png"><br>TECNÓLOGO EN PRODUCCIÓN MULTIMEDIA<br><br>En este momento estoy realizando un tecnólogo en producción multimedia, me encuentro
+			<div class="wow article animate__animated animate__backInUp"><img src="images/sena.png"><br>TECNÓLOGO EN PRODUCCIÓN MULTIMEDIA<br><br>En este momento estoy realizando un tecnólogo en producción multimedia, me encuentro
 en la etapa lectiva.</div>
 
 		</div>
@@ -108,6 +109,7 @@ en la etapa lectiva.</div>
 	<footer><center>JUAN DAVID CASTRO - TODOS LOS DERECHOS RESERVADOS - 2020</center></footer>
 
 
-
+	<script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>
